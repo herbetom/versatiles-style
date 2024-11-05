@@ -218,7 +218,7 @@ export default class Colorful extends StyleBuilder<Colorful> {
 			// hillshade
 
 			'hillshade-*': {
-				fillOutlineColor: color.transparent, // nessecary to hide polygon borders
+				fillOutlineColor: colors.transparent, // nessecary to hide polygon borders
 				fillAntialias: true,
 				opacity: { 0: 0, 5: 0.3, 12: 0.3, 16: 0.1 },
 			},
@@ -233,7 +233,7 @@ export default class Colorful extends StyleBuilder<Colorful> {
 
 			'land-*': {
 				color: colors.land,
-				fillOutlineColor: color.transparent, // nessecary to hide polygon borders
+				fillOutlineColor: colors.transparent, // nessecary to hide polygon borders
 				fillAntialias: true,
 			},
 			'land-glacier': {
