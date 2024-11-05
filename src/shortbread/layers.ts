@@ -20,14 +20,12 @@ export function getShortbreadLayers(option: { readonly languageSuffix: LanguageS
 		{
 			id: 'hillshade-highlight',
 			type: 'fill',
-			'source': 'hillshade-vectors',
 			'source-layer': 'hillshade-vectors',
 			'filter': ['all', ['==', 'shade', 'light']],
 		},
 		{
 			id: 'hillshade-shadow',
 			type: 'fill',
-			'source': 'hillshade-vectors',
 			'source-layer': 'hillshade-vectors',
 			'filter': ['all', ['==', 'shade', 'dark']],
 		},
